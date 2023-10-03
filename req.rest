@@ -1,0 +1,74 @@
+POST http://localhost:8080/register
+Content-Type: application/json
+
+{
+    "username" :"dummy3",
+    "password":"admin",
+     "email":"dummy3@gmail.com"
+}
+
+###
+POST http://localhost:8080/login
+Content-Type: application/json
+
+{
+    "username" :"dummy3",
+    "password":"admin"
+   
+}
+
+
+###
+POST http://localhost:8080/add-bank
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTY0MjU3MzAsInVzZXJuYW1lIjoiZHVtbXkzIn0.Hh9jfqVWO2xT2eFtpTWu2Cx-IHMaALg85UbmtIqlViU
+
+{
+    "accountName" : "ferian",
+    "AccountNumber":"1234431",
+    "bankName":"BCA"
+}
+###
+
+POST http://localhost:8080/topup
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTY0MjU3MzAsInVzZXJuYW1lIjoiZHVtbXkzIn0.Hh9jfqVWO2xT2eFtpTWu2Cx-IHMaALg85UbmtIqlViU
+
+{
+    "balance": 100
+
+}
+###
+
+POST http://localhost:8080/players
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTY0MjU3MzAsInVzZXJuYW1lIjoiZHVtbXkzIn0.Hh9jfqVWO2xT2eFtpTWu2Cx-IHMaALg85UbmtIqlViU
+
+{
+}
+###
+GET http://localhost:8080/players/dummy3
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTY0MjU3MzAsInVzZXJuYW1lIjoiZHVtbXkzIn0.Hh9jfqVWO2xT2eFtpTWu2Cx-IHMaALg85UbmtIqlViU
+
+
+###
+
+POST http://localhost:8080/dashboard
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTY0MjY3OTUsInVzZXJuYW1lIjoiZHVtbXkzIn0.964HGO4Cvcg7i6vMDg-yfMr4ldNnYAdS7stFVqjOAnU
+
+{}
+
+
+
+###
+GET http://localhost:8080/ping
+
+
+###
+POST http://localhost:8080/logout
+Authorization: ey
+
+{
+    
+}
