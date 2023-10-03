@@ -1,7 +1,3 @@
-Sure, let's complete the README with the given requirements:
-
----
-
 # Simple Game App
 
 This is a simple game application implemented in Go, providing a RESTful API with various features.
